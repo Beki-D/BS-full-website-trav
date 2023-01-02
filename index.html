@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- navbar section -->
-    <nav class="nav navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="nav navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">Frontend academy</a>
             
@@ -27,7 +27,7 @@
                         <a href="#learn" class="nav-link">What you'll learn</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#qn" class="nav-link">Questions</a>
+                        <a href="#questions" class="nav-link">Questions</a>
                     </li>
                     <li class="nav-item">
                         <a href="#instructors" class="nav-link">Instructors</a>
@@ -138,7 +138,7 @@
                     <p class>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestiae quibusdam fuga cupiditate inventore laboriosam voluptates quos minima. Iusto debitis culpa voluptatum. Nemo sed eveniet deserunt veritatis consequuntur tempora eius.
                     </p>
-                    <a href="#" class="btn btn-light mt-3">
+                    <a href="#" class="btn btn-outline-dark mt-3">
                         <i class="fa fa-chevron-right"></i> Read more</a>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                     <p class>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestiae quibusdam fuga cupiditate inventore laboriosam voluptates quos minima. Iusto debitis culpa voluptatum. Nemo sed eveniet deserunt veritatis consequuntur tempora eius.
                     </p>
-                    <a href="#" class="btn btn-light mt-3">
+                    <a href="#" class="btn btn-outline-light mt-3">
                         <i class="fa fa-chevron-right"></i> Read more</a>
                 </div>
                 <div class="col-md">
@@ -167,6 +167,53 @@
         </div>
     </section>
     
+    <!-- Questions accordion -->
+    <section id="questions">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently asked questions</h2>
+           
+            <div class="accordion" id="questions">
+                <div class="accordion-item">
+                  <h4 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Item 1
+                    </button>
+                  </h4>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h4 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Item 2
+                    </button>
+                  </h4>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h4 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Item 3
+                    </button>
+                  </h4>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+        </div>
+    </section>
+
     <script src="./dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
