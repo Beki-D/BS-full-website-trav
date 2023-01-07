@@ -4,16 +4,16 @@ body::before {
     height: 60px;
 }
 
-#twitter-icon:hover {
-    color: #589dd2 !important;
+.twitter-icon:hover {
+    color: #4ab3f4 !important;
 }
-#telegram-icon:hover {
-    color: #26a0df !important;
+.telegram-icon:hover {
+    color: #339fd6 !important;
 }
-#linkedin-icon:hover {
+.linkedin-icon:hover {
     color: #0076b2 !important;
 }
-#github-icon:hover {
+.github-icon:hover {
     color: rgb(115, 115, 115) !important;
 }
 
