@@ -4,6 +4,19 @@ body::before {
     height: 60px;
 }
 
+#twitter-icon:hover {
+    color: #589dd2 !important;
+}
+#telegram-icon:hover {
+    color: #26a0df !important;
+}
+#linkedin-icon:hover {
+    color: #0076b2 !important;
+}
+#github-icon:hover {
+    color: rgb(115, 115, 115) !important;
+}
+
 @media (min-width: 768px) {
     .news-input {
         width: 50% !important;
