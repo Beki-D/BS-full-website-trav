@@ -16,6 +16,9 @@ body::before {
 .github-icon:hover {
     color: rgb(115, 115, 115) !important;
 }
+.btn-lg:hover {
+    /* color: rgb(56, 56, 56) !important; */
+}
 
 @media (min-width: 768px) {
     .news-input {
